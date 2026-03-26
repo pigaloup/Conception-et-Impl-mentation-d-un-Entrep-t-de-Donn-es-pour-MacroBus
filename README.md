@@ -53,7 +53,8 @@ Conception d'un schéma en étoile pour maximiser les performances de lecture.
 4. **Chargement des données**  
    - Via scripts SQL.  
    - Via jobs Talend (Développement de jobs ETL complexes utilisant le composant tMap pour le mapping, le filtrage et la transformation des données vers les tables cibles.).  
-
+![Tmap](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/tmapfait.PNG)
+![Table de fait](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/TABLEDEFAIT.PNG)
 🛡️ Validation & Qualité des Données (Data Quality)
 La fiabilité étant critique, j'ai instauré un protocole de validation comparant les résultats entre la source et le Data Warehouse (via SQL et Talend).
 
@@ -91,7 +92,8 @@ Le système permet de répondre instantanément à des questions métiers comple
 - **Validation et assurance qualité des données**.  
 - **Business Intelligence** avec Power BI.  
 
-## 🎬 [Télécharger la vidéo de démonstration](./ETL+AIRFLOW/ETL_AIRFLOW_METEO.mp4)
+## 🎬 [Télécharger la vidéo de démonstration](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/MacroBus.mp4)
+
 ---
 
 ## 🚀 Conclusion et recommandation
