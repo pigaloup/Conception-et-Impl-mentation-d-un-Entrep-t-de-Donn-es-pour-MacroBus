@@ -38,7 +38,7 @@ Nettoyage et structuration initiale sous MySQL Workbench.
 2. Modélisation en étoile
 Conception d'un schéma en étoile pour maximiser les performances de lecture.
 
-![Schéma d’architecture du pipeline ETL](ETL+AIRFLOW/ETL_ARCHITECTURE.jpg)
+![Modélisation en étoile](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/modelisation%20en%20%C3%A9toile.PNG)
 
   * Table de Faits : fact_orderdetails (Commandes, montants et clés étrangères).
   * Dimensions :
