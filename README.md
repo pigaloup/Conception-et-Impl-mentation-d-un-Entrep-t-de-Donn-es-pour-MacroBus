@@ -94,7 +94,7 @@ Le système permet de répondre instantanément à des questions métiers comple
 ![Visualisation des données2](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/QUESTION%202.PNG).
 
 5. **Analyse Produit** : Les "Classic Cars" représentent plus de 52% du volume commandé au deuxiéme trimestre de l'année 2003.
-![Visualisation des données2]([ETL+AIRFLOW/2.PNG](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/QUESTION%203.PNG)).
+![Visualisation des données2](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/QUESTION%203.PNG)).
 
 ## 🌟 Compétences Démontrées
 - Conception et implémentation d’un **entrepôt de données**.  
