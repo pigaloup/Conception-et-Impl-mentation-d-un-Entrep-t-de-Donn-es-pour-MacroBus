@@ -1,4 +1,4 @@
-🏗️ # Conception et Implémentation d'un Entrepôt de Données pour MacroBus
+## 🏗️ Conception et Implémentation d'un Entrepôt de Données pour MacroBus
 
 Description du projet : MacroBus, une entreprise spécialisée dans la vente de véhicules sur plusieurs marchés, souhaite optimiser ses performances commerciales et faciliter la prise de décision à travers un système dédié. Pour ce faire nous devons mettre en place un entrepôt de données pour servir de source aux tableaux de bord décisionnels afin de piloter efficacement l’activité commerciale et analyser les commandes. 
 Parties Prenantes : PDG, Gestionnaire de base de données, Data Engineering, Data Analyst.
@@ -8,7 +8,7 @@ structurée et fiable pour piloter la performance commerciale via des tableaux d
 
 ## 🎬 [Télécharger la vidéo de démonstration](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/MacroBus.mp4)
 
-🎯 Objectifs du Projet
+# 🎯 Objectifs du Projet
 
 * Centralisation : Créer un entrepôt de données (Data Warehouse) robuste et fiable.
 * Modélisation : Structurer les données via une **modélisation en étoile**.
@@ -18,7 +18,7 @@ structurée et fiable pour piloter la performance commerciale via des tableaux d
 * Analyse Performance : Piloter l'activité commerciale (ventes par territoire, top commerciaux, catégories produits) dans Power Bi.
 
 
-🛠️ Stack Technique
+# 🛠️ Stack Technique
 
 * Stockage : MySQL (Base source et Data Warehouse).
 * ETL / Intégration : Talend Open Studio & Scripts SQL.
@@ -27,25 +27,25 @@ structurée et fiable pour piloter la performance commerciale via des tableaux d
 * Langages : SQL
 * Outils de Gestion : MySQL Workbench.
 
-📐 Architecture & Étapes Clés
+# 📐 Architecture & Étapes Clés
 
 Le projet suit une architecture de modélisation dimensionnelle en étoile pour optimiser les performances de lecture et simplifier les analyses croisées.
 
-1. Restauration et Préparation (ETL)
+# 1. Restauration et Préparation (ETL)
 Extraction des données sources et conversion en format .csv pour optimiser le chargement.
 Nettoyage et structuration initiale sous MySQL Workbench.
 
-2. Modélisation en étoile
+# 2. Modélisation en étoile
 Conception d'un schéma en étoile pour maximiser les performances de lecture.
 
 ![Modélisation en étoile](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/modelisation%20en%20%C3%A9toile.PNG)
 
-  * Table de Faits : fact_orderdetails (Commandes, montants et clés étrangères).
-  * Dimensions :
-    dim_customers : Segmentation géographique et client.
-    dim_products  : Catalogue et catégories de véhicules.
-    dim_employees : Hiérarchie et performance des commerciaux.
-    dim_calendar  : Granularité temporelle (Année, Semestre, Trimestre, Mois, Jour).
+  **Table de Faits** : fact_orderdetails (Commandes, montants et clés étrangères).
+  **Dimensions** :
+              - dim_customers : Segmentation géographique et client.
+              - dim_products  : Catalogue et catégories de véhicules.
+              - dim_employees : Hiérarchie et performance des commerciaux.
+              - dim_calendar  : Granularité temporelle (Année, Semestre, Trimestre, Mois, Jour).
 
 3. **Création de l’entrepôt de données**  
    - Scripts SQL pour générer les tables de dimensions et de faits.  
@@ -59,7 +59,7 @@ Conception d'un schéma en étoile pour maximiser les performances de lecture.
 
 
 
-🛡️ Validation & Qualité des Données (Data Quality)
+# 🛡️ Validation & Qualité des Données (Data Quality)
 La fiabilité étant critique, j'ai instauré un protocole de validation comparant les résultats entre la source et le Data Warehouse (via SQL et Talend).
 
 Pour ce faire, j'ai mis en place d'une phase de tests rigoureuse pour garantir l'intégrité des données (Data Quality) en comparant les résultats entre la source, le chargement par 
@@ -75,7 +75,7 @@ script SQL et le flux Talend :
 
 *Note : Les écarts mineurs constatés ont été analysés et validés comme conformes aux règles de gestion des arrondis lors de la transformation.
 
-📊 Business Insights (Power BI)
+# 📊 Business Insights (Power BI)
 Le système permet de répondre instantanément à des questions métiers complexes :
 [👉 Voir la Visualisation des données dans Power BI](https://github.com/pigaloup/E.T.L-AIRFLOW_Projet_Meteo_NASA-/blob/main/M%C3%A9t%C3%A9o_project.pbix).
    1. Top Territoires : Les USA dominent avec plus de 3,2M de montant total.
@@ -102,9 +102,9 @@ Le système permet de répondre instantanément à des questions métiers comple
 
 ## 🚀 Conclusion et recommandation
 
-Conclusions : Le projet optimise les performances commerciales de l’entreprise MacroBus et faciliter la prise de décision à travers un système dédié
+**Conclusions** : Le projet optimise les performances commerciales de l’entreprise MacroBus et faciliter la prise de décision à travers un système dédié
 
-Recommandations : la solution pourrait être étendue avec des modèles prédictifs (Machine Learning) basés sur l'historique des commandes pour anticiper les stocks et les tendances de ventes futures.
+**Recommandations** : la solution pourrait être étendue avec des modèles prédictifs (Machine Learning) basés sur l'historique des commandes pour anticiper les stocks et les tendances de ventes futures.
 
 Exemple : Les modèles prédictifs basés sur le machine learning
 
@@ -117,9 +117,11 @@ Mon ambition est de contribuer en tant que **Data Engineer** à la mise en place
 ---
 
 ## 📌 Auteur
+
 👤 **El Hadji Ablaye Galoup Diop**  
-- Data Engineering | Data Analysis | BI  
-- Expérience en gestion de production, inventaire et optimisation des processus.  
-- Certifications : IBM Data Warehouse Engineer, intelligence artificielle, Data Analysis.  
+
+  - Data Engineering | Data Analysis | BI
+  - Expérience en gestion de production, inventaire et optimisation des processus.  
+  - Certifications : IBM Data Warehouse Engineer, intelligence artificielle, Data Analysis.  
 
 ---
