@@ -8,6 +8,8 @@ structurée et fiable pour piloter la performance commerciale via des tableaux d
 
 ## 🎬 [Télécharger la vidéo de démonstration](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/MacroBus.mp4)
 
+-----
+
 # 🎯 Objectifs du Projet
 
 * Centralisation : Créer un entrepôt de données (Data Warehouse) robuste et fiable.
@@ -17,7 +19,7 @@ structurée et fiable pour piloter la performance commerciale via des tableaux d
 * Aide à la Décision : Fournir une source de données unique et fiable pour le PDG et les analystes.
 * Analyse Performance : Piloter l'activité commerciale (ventes par territoire, top commerciaux, catégories produits) dans Power Bi.
 
-
+-----
 # 🛠️ Stack Technique
 
 * Stockage : MySQL (Base source et Data Warehouse).
@@ -26,6 +28,8 @@ structurée et fiable pour piloter la performance commerciale via des tableaux d
 * Data Visualisation : Power BI.
 * Langages : SQL
 * Outils de Gestion : MySQL Workbench.
+* 
+-----
 
 # 📐 Architecture & Étapes Clés
 
@@ -52,12 +56,13 @@ Conception d'un schéma en étoile pour maximiser les performances de lecture.
 
 4. **Chargement des données**  
    - Via scripts SQL.  
-   - Via jobs Talend (Développement de jobs ETL complexes utilisant le composant tMap pour le mapping, le filtrage et la transformation des données vers les tables cibles.).  
+   - Via jobs Talend (Développement de jobs ETL complexes utilisant le composant tMap pour le mapping, le filtrage et la transformation des données vers les tables cibles).
+     
 ![Tmap](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/tmapfait.PNG)
 
 ![Table de fait](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/TABLEDEFAIT.PNG)
 
-
+-----
 
 # 🛡️ Validation & Qualité des Données (Data Quality)
 La fiabilité étant critique, j'ai instauré un protocole de validation comparant les résultats entre la source et le Data Warehouse (via SQL et Talend).
@@ -75,17 +80,20 @@ script SQL et le flux Talend :
 
 *Note : Les écarts mineurs constatés ont été analysés et validés comme conformes aux règles de gestion des arrondis lors de la transformation.
 
+-----
+
 # 📊 Business Insights (Power BI)
 Le système permet de répondre instantanément à des questions métiers complexes :
+
 [👉 Voir la Visualisation des données dans Power BI](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/Projet1_MacroBus.pbix).
-   1. Top Territoires : Les USA dominent avec plus de 3,2M de montant total.
+
+1. **Top Territoires** : Les USA dominent avec plus de 3,2M de montant total.
 ![Visualisation des données1](ETL+AIRFLOW/1.PNG)
 
-   3. Productivité : Identification du Top 3 des commerciaux (ex: Gerard Hernandez avec 43 commandes).
-      
+3. **Productivité** : Identification du Top 3 des commerciaux (ex: Gerard Hernandez avec 43 commandes).
 ![Visualisation des données2](ETL+AIRFLOW/2.PNG).
-   5. Analyse Produit : Les "Classic Cars" représentent plus de 52% du volume commandé au T2 2003.
 
+5. **Analyse Produit** : Les "Classic Cars" représentent plus de 52% du volume commandé au T2 2003.
 ![Visualisation des données2](ETL+AIRFLOW/2.PNG).
 
 ## 🌟 Compétences Démontrées
@@ -98,7 +106,7 @@ Le système permet de répondre instantanément à des questions métiers comple
 
 ## 🎬 [Télécharger la vidéo de démonstration](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/MacroBus.mp4)
 
----
+-----
 
 ## 🚀 Conclusion et recommandation
 
@@ -108,7 +116,7 @@ Le système permet de répondre instantanément à des questions métiers comple
 
 Exemple : Les modèles prédictifs basés sur le machine learning
 
-------------------------------
+-----
 
 ## 🚀 Objectif Professionnel
 Ce projet illustre ma capacité à **transformer des données brutes en informations stratégiques**.  
