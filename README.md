@@ -77,7 +77,7 @@ script SQL et le flux Talend :
 
 # 📊 Business Insights (Power BI)
 Le système permet de répondre instantanément à des questions métiers complexes :
-[👉 Voir la Visualisation des données dans Power BI](https://github.com/pigaloup/E.T.L-AIRFLOW_Projet_Meteo_NASA-/blob/main/M%C3%A9t%C3%A9o_project.pbix).
+[👉 Voir la Visualisation des données dans Power BI](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/Projet1_MacroBus.pbix).
    1. Top Territoires : Les USA dominent avec plus de 3,2M de montant total.
 ![Visualisation des données1](ETL+AIRFLOW/1.PNG)
 
