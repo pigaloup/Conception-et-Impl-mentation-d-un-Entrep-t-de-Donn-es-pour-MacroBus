@@ -88,13 +88,13 @@ Le système permet de répondre instantanément à des questions métiers comple
 [👉 Voir la Visualisation des données dans Power BI](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/Doc/Projet1_MacroBus.pbix).
 
 1. **Top Territoires** : Les USA dominent avec plus de 3,2M de montant total.
-![Visualisation des données1](ETL+AIRFLOW/1.PNG)
+![Visualisation des données1](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/QUESTION%201.PNG)
 
 3. **Productivité** : Identification du Top 3 des commerciaux (ex: Gerard Hernandez avec 43 commandes).
-![Visualisation des données2](ETL+AIRFLOW/2.PNG).
+![Visualisation des données2](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/QUESTION%202.PNG).
 
-5. **Analyse Produit** : Les "Classic Cars" représentent plus de 52% du volume commandé au T2 2003.
-![Visualisation des données2](ETL+AIRFLOW/2.PNG).
+5. **Analyse Produit** : Les "Classic Cars" représentent plus de 52% du volume commandé au deuxiéme trimestre de l'année 2003.
+![Visualisation des données2]([ETL+AIRFLOW/2.PNG](https://github.com/pigaloup/Conception-et-Impl-mentation-d-un-Entrep-t-de-Donn-es-pour-MacroBus/blob/main/image/QUESTION%203.PNG)).
 
 ## 🌟 Compétences Démontrées
 - Conception et implémentation d’un **entrepôt de données**.  
